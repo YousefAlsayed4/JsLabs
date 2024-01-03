@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter{
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(55, 171, 171);
+}
+.num1{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+}
+.num2{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;   
+}
+.btn{
+   
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: larger;
+    display: block;    
+}
+.btn1{
+    width: 60px;
+    height: 50px;
+    padding-right: 0px;
+    scroll-margin-left: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+}
+.btn2{
+    width: 60px;
+    height: 50px;
+    padding-right: 0px;
+    scroll-margin-left: 0px;
+    margin-left: 0px;
+    margin-left: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+.btn3{
+    width: 60px;
+    height: 50px;
+    padding-right: 0px;
+    scroll-margin-left: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 25px;
+}
+.btn4{
+    width: 60px;
+    height: 50px;
+    padding-right: 0px;
+    scroll-margin-left: 0px;
+    margin-left: 25px;
+
+    text-align: center;
+    font-size: 25px;
+}
+
