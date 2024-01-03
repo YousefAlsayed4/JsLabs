@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* This ensures that the container takes up the full height of the viewport */
+}
+
+.login {
+    width: 300px; /* You can adjust the width as needed */
+    height: 200px; /* You can adjust the height as needed */
+    background-color: rgb(120, 134, 237);
+    text-align: center;
+    padding: 50px;
+}
+.border{
+
+    border: 2px solid;
+    border-radius: 10px;
+}
+.sb{
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    text-align: center;
+}
