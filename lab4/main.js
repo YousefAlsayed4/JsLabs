@@ -153,5 +153,5 @@ function Person (fullName,Money,sleepMood,healthRate) {
       },
     };
 }
-    
+   
      
