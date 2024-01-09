@@ -1,4 +1,4 @@
-//array of object
+
 var contacts = [{
     name: "",
     phone: ""
