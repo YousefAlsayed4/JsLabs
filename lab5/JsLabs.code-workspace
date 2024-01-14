@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "JsLabs",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501
+	}
+}
