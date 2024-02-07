@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rgb(2, 167, 2); /* Set the green background for the entire screen */
+}
+
+.main {   
+    width: 450px;
+    padding: 20px;
+}
+
+.login {
+    background-color: aliceblue;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    width: 120px;
+    padding: 10px 15px;
+    border: none;
+    
+    cursor: pointer;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
