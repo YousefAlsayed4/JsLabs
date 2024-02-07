@@ -1,0 +1,64 @@
+body {
+    background-color: #DBE3E6;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clockContainer {
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    background-color: #DDDDDD;
+    width: 700px;
+    height: 175px;
+}
+
+.time {
+    height: 120px;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timerContainer {
+    height: 550px;
+    width: 900px;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dayContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    color: #6b6262;
+}
+
+.infocus {
+    font-weight: bold;
+    color: red;
+}
+
+.timer {
+    margin-top: 200px;
+    font-size: 80px;
+}
