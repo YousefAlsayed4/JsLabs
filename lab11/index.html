@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="all">
+    <div class="main w-75 mx-auto my-5">
+
+        <label for="task name">Task: </label>
+        <input placeholder="add task" class="my-2 form-control " type="text" name="" id="taskNameInput">
+        <button onclick="addTask()" class="btn">Add Task</button>
+        
+    </div>    
+</div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="tablebody">
+            
+            
+        </tbody>
+    </table>
+    
+    <script src="main.js"></script>
+    <script>
+        // Load tasks from local storage when the page loads
+        window.onload = function() {
+            var savedTasks = JSON.parse(localStorage.getItem("taskContainer"));
+            if (savedTasks) {
+                taskContainer = savedTasks;
+                displayProduct();
+            }
+        };
+    </script>
+</body>
+</html>
